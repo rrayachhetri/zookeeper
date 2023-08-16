@@ -110,6 +110,7 @@ app.get("/api/animals/:id", (req, res) => {
   }
 });
 
+
 app.post("/api/animals", (req, res) => {
   // req.body is where our incoming content will be
   // set id based on what the next index of the array will be
@@ -128,3 +129,5 @@ app.post("/api/animals", (req, res) => {
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
 });
+
+
