@@ -117,6 +117,15 @@
         "angry"
       ],
       "id": "11"
+    },
+    {
+      "name": "te",
+      "species": "te",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany"
+      ],
+      "id": "12"
     }
   ]
 }
