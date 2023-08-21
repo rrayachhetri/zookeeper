@@ -126,6 +126,46 @@
         "zany"
       ],
       "id": "12"
+    },
+    {
+      "name": "coco",
+      "species": "canine",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "leo",
+      "species": "canine",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany"
+      ],
+      "id": "14"
+    },
+    {
+      "name": "leo",
+      "species": "canine",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany",
+        "anxious",
+        "loving"
+      ],
+      "id": "15"
+    },
+    {
+      "name": "ss",
+      "species": "ss",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany",
+        "anxious",
+        "loving"
+      ],
+      "id": "16"
     }
   ]
 }
