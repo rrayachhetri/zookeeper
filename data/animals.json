@@ -166,6 +166,17 @@
         "loving"
       ],
       "id": "16"
+    },
+    {
+      "name": "Happy",
+      "species": "mammal",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry",
+        "anxious",
+        "loving"
+      ],
+      "id": "17"
     }
   ]
 }
