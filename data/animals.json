@@ -177,6 +177,16 @@
         "loving"
       ],
       "id": "17"
+    },
+    {
+      "name": "lambard",
+      "species": "unknown",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry",
+        "anxious"
+      ],
+      "id": "18"
     }
   ]
 }
