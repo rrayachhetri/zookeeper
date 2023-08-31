@@ -82,7 +82,7 @@ test("validates age", () => {
     expect(result).toBe(true);
     expect(result2).toBe(false);
 
-})
+});
 
 
 
