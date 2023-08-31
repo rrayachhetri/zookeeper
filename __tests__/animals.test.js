@@ -1,4 +1,5 @@
 const fs = require("fs");
+jest.mock('fs');
 const {
   filterByQuery,
   findById,
@@ -10,7 +11,7 @@ const { animals } = require("../data/animals");
 test("creates an animal object", () => {
   const animal = createNewAnimal(
     { name: "Darlene", id: "jhgdja3ng2" },
-    animals
+  animals
   );
 
   expect(animal.name).toBe("Darlene");
