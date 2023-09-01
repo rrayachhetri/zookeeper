@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { filterByQuery, findById, createNewZookeeper, validateZookpeer} = require("../../lib/zookeepers");
+const { filterByQuery, findById, createNewZookeeper, validateZookeeper} = require("../../lib/zookeepers");
 const { zookeepers } = require("../../data/zookeepers.json");
 
 router.get("/zookeepers", (req, res) => {
@@ -21,7 +21,7 @@ router.get("/zookeepers/:id", (req, res) => {
 
 router.post("/zookeepers", (req, res) => {
     req.body.id = zookeepers.length.toString();
-    if(!validateZookpeer(req.body)) {
+    if(!validateZookeeper(req.body)) {
         res.status(400).send("The zookeeper is not properly formatted")
     } else {
         const zookeeper = createNewZookeeper(req.body, zookeepers)
