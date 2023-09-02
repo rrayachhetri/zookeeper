@@ -187,6 +187,31 @@
         "anxious"
       ],
       "id": "18"
-    } 
+    },
+    {
+      "name": "Bear",
+      "species": "bid",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany",
+        "anxious",
+        "loving",
+        "goofy"
+      ],
+      "id": "19"
+    },
+    {
+      "name": "coco",
+      "species": "canine",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry",
+        "zany",
+        "anxious",
+        "loving",
+        "goofy"
+      ],
+      "id": "20"
+    }
   ]
 }

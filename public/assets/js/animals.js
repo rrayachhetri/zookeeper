@@ -25,6 +25,7 @@ const printResults = resultArr => {
 const getAnimals = (formData = {}) => {
   let queryUrl = '/api/animals?';
 
+  /// is iterating over the entries of an object named formData and building a query string queryUrl from its key-value pairs.
   Object.entries(formData).forEach(([key, value]) => {
     queryUrl += `${key}=${value}&`;
   });

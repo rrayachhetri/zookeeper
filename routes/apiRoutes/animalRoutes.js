@@ -12,8 +12,7 @@ router.get("/animals", (req, res) => {
   if (req.query) {
     results = filterByQuery(req.query, results);
   }
-  console.log(req.query);
-
+  // console.log(req.query);
   res.json(results);
 });
 
@@ -25,6 +24,7 @@ router.get("/animals/:id", (req, res) => {
     res.send(400);
   }
 });
+
 router.post("/animals", (req, res) => {
   // req.body is where our incoming content will be
   // set id based on what the next index of the array will be
